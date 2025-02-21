@@ -3,10 +3,14 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   use: {
-    trace: 'on',
-    screenshot: 'on',
-    video: 'on',
+    trace: 'on',  // Enables tracing for debugging
+    screenshot: 'on',  // Captures screenshots
+    video: 'retain-on-failure',  // Saves video only if test fails
   },
+  reporter: [
+    ['html', { outputFolder: 'playwright-report' }], // Generates an HTML report
+    ['json', { outputFile: 'test-results/results.json' }], // JSON report for structured data
+  ],
   projects: [
     {
       name: 'chromium',
@@ -29,4 +33,5 @@ export default defineConfig({
       use: { ...devices['iPhone 12'] },
     },
   ],
+  outputDir: 'test-results/', // Stores test artifacts (traces, videos, screenshots)
 });
