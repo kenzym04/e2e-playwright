@@ -32,4 +32,4 @@ This report documents the test steps executed for verifying the Web Books login 
 | Safari     | ✅ Passed  |
 
 ## Test Output
-All tests successfully executed and verified the presence of expected elements on the login page.
+All tests successfully executed and verified the presence of expected elements on the login page as shown in the results.
