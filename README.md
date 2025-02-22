@@ -157,5 +157,4 @@ npx playwright show-report
 
 3. **Seeing different test results locally vs. CI?**
    - Check the **test environment**, ensure fonts and dependencies are available.
-
 ---
