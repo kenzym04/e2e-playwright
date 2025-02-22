@@ -121,7 +121,7 @@
       "specs": [],
       "suites": [
         {
-          "title": "Web Books Login Page",
+          "title": "Web Books Page Visibility",
           "file": "web-books-login.spec.ts",
           "line": 3,
           "column": 6,
@@ -141,22 +141,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 10617,
+                      "duration": 10181,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-02-21T19:36:32.195Z",
+                      "startTime": "2025-02-22T11:28:48.923Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--8b545-in-page-and-verify-elements-chromium\\test-finished-1.png"
+                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--3068b-in-page-and-verify-elements-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--8b545-in-page-and-verify-elements-chromium\\trace.zip"
+                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--3068b-in-page-and-verify-elements-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -164,7 +164,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "7b16cc844827d3fa8787-a5358b08e301c7acbadf",
+              "id": "7b16cc844827d3fa8787-d94fcd1e2c7a59339614",
               "file": "web-books-login.spec.ts",
               "line": 4,
               "column": 7
@@ -184,22 +184,22 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 9980,
+                      "duration": 9354,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-02-21T19:36:32.153Z",
+                      "startTime": "2025-02-22T11:28:48.973Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--8b545-in-page-and-verify-elements-firefox\\test-finished-1.png"
+                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--3068b-in-page-and-verify-elements-firefox\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--8b545-in-page-and-verify-elements-firefox\\trace.zip"
+                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--3068b-in-page-and-verify-elements-firefox\\trace.zip"
                         }
                       ]
                     }
@@ -207,7 +207,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "7b16cc844827d3fa8787-8f8d0eaee6972456853e",
+              "id": "7b16cc844827d3fa8787-ee33066294fe5acb997a",
               "file": "web-books-login.spec.ts",
               "line": 4,
               "column": 7
@@ -227,22 +227,22 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 11805,
+                      "duration": 11999,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-02-21T19:36:32.237Z",
+                      "startTime": "2025-02-22T11:28:48.937Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--8b545-in-page-and-verify-elements-webkit\\test-finished-1.png"
+                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--3068b-in-page-and-verify-elements-webkit\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--8b545-in-page-and-verify-elements-webkit\\trace.zip"
+                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--3068b-in-page-and-verify-elements-webkit\\trace.zip"
                         }
                       ]
                     }
@@ -250,7 +250,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "7b16cc844827d3fa8787-04574147cb39b13f8152",
+              "id": "7b16cc844827d3fa8787-44df360a96f0e72ea781",
               "file": "web-books-login.spec.ts",
               "line": 4,
               "column": 7
@@ -270,22 +270,22 @@
                     {
                       "workerIndex": 3,
                       "status": "passed",
-                      "duration": 11114,
+                      "duration": 10387,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-02-21T19:36:32.201Z",
+                      "startTime": "2025-02-22T11:28:48.923Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--8b545-in-page-and-verify-elements-mobile-chrome\\test-finished-1.png"
+                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--3068b-in-page-and-verify-elements-mobile-chrome\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--8b545-in-page-and-verify-elements-mobile-chrome\\trace.zip"
+                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--3068b-in-page-and-verify-elements-mobile-chrome\\trace.zip"
                         }
                       ]
                     }
@@ -293,7 +293,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "7b16cc844827d3fa8787-5e0b81f3f5cbf83c959a",
+              "id": "7b16cc844827d3fa8787-f57a66cd6f5e3bda25fb",
               "file": "web-books-login.spec.ts",
               "line": 4,
               "column": 7
@@ -313,22 +313,22 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 11665,
+                      "duration": 11145,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-02-21T19:36:32.170Z",
+                      "startTime": "2025-02-22T11:28:48.946Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--8b545-in-page-and-verify-elements-mobile-safari\\test-finished-1.png"
+                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--3068b-in-page-and-verify-elements-mobile-safari\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--8b545-in-page-and-verify-elements-mobile-safari\\trace.zip"
+                          "path": "D:\\watu-assignment-playwright\\test-results\\web-books-login-Web-Books--3068b-in-page-and-verify-elements-mobile-safari\\trace.zip"
                         }
                       ]
                     }
@@ -336,7 +336,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "7b16cc844827d3fa8787-1d08a00e291cc8417b9b",
+              "id": "7b16cc844827d3fa8787-a66d10894184a4a8b1be",
               "file": "web-books-login.spec.ts",
               "line": 4,
               "column": 7
@@ -348,8 +348,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-02-21T19:36:31.486Z",
-    "duration": 12781.614,
+    "startTime": "2025-02-22T11:28:47.119Z",
+    "duration": 14416.81,
     "expected": 5,
     "skipped": 0,
     "unexpected": 0,

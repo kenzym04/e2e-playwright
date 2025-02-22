@@ -1,11 +1,11 @@
 ## Watu Assignment - Playwright Test Automation
 
 ### Project Overview
-This project contains automated tests for the **Web Books Login Page** using [Playwright](https://playwright.dev/). The tests validate the presence of essential login elements and ensure compatibility across multiple browsers.
+This project contains automated tests for the **Web Books Login Page** using [Playwright](https://playwright.dev/). The tests validate the presence of essential login elements and ensure compatibility across multiple browsers and mobile devices.
 
 ### Features
 - Automated end-to-end tests using **Playwright**
-- Cross-browser testing (**Chromium, Firefox, WebKit, Safari, Chrome**)
+- Cross-browser and mobile testing (**Chromium, Firefox, WebKit, Safari, Chrome, Mobile Safari, Mobile Chrome**)
 - CI/CD integration using **GitHub Actions**
 - Test artifacts (screenshots, traces, reports) for debugging
 
@@ -40,11 +40,19 @@ npx playwright install --with-deps
 npx playwright test
 ```
 
-### Run tests in a specific browser:
+### Run tests in a specific browser or device:
 ```bash
 npx playwright test --project=chromium
 npx playwright test --project=firefox
 npx playwright test --project=webkit
+npx playwright test --project=chrome
+npx playwright test --project=mobile-safari
+npx playwright test --project=mobile-chrome
+```
+
+### Run a specific test file:
+```bash
+npx playwright test tests/web-books-login.spec.ts
 ```
 
 ### Capture screenshots:
@@ -68,8 +76,7 @@ npx playwright test --debug
    - Login button
    - Register button
    - "Forgot Your Password?" link
-   - Contact information
-3. Execute tests across multiple browsers
+3. Execute tests across multiple browsers and mobile devices
 4. Capture execution results
 
 ### **Test Assertions**
@@ -87,6 +94,8 @@ npx playwright test --debug
 | WebKit   | ✅ Passed  |
 | Safari   | ✅ Passed  |
 | Chrome   | ✅ Passed  |
+| Mobile Safari | ✅ Passed  |
+| Mobile Chrome | ✅ Passed  |
 
 Test artifacts (screenshots, reports) are stored in:
 ```
@@ -99,14 +108,14 @@ playwright-report/
 ## CI/CD Integration (GitHub Actions)
 This project is set up with **GitHub Actions** for automated test execution on every push and pull request.
 
-### Workflow: `.github/workflows/playwright.yml`
+### Workflow: `.github/workflows/ci.yml`
 - **Triggers**: Runs on `push` and `pull_request` events
 - **Runs Playwright tests** in a GitHub-hosted Linux environment
 - **Uploads test reports** (HTML & JSON)
 
 ### Manually trigger tests:
 ```bash
-gh workflow run playwright.yml
+gh workflow run ci.yml
 ```
 
 ---
@@ -115,51 +124,27 @@ gh workflow run playwright.yml
 ```
 watu-assignment-playwright/
 │── tests/                      # Playwright test files
+│── docs/                       # Documentation and test reports
 │── playwright.config.ts         # Playwright configuration
 │── package.json                 # Project dependencies
 │── .github/workflows/           # GitHub Actions CI/CD config
 │── test-results/                # Test artifacts (screenshots, traces)
 │── playwright-report/           # HTML reports
-```
-
----
-
-## Playwright Configuration (`playwright.config.ts`)
-```ts
-import { defineConfig, devices } from '@playwright/test';
-
-export default defineConfig({
-  testDir: './tests',
-  use: {
-    trace: 'on',  // Enables tracing for debugging
-    screenshot: 'on',  // Captures screenshots
-    video: 'on',  // Records video
-  },
-  reporter: [
-    ['html', { outputFolder: 'playwright-report' }], 
-    ['json', { outputFile: 'test-results/results.json' }]
-  ],
-  projects: [
-    { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
-    { name: 'firefox', use: { ...devices['Desktop Firefox'] } },
-    { name: 'webkit', use: { ...devices['Desktop Safari'] } },
-  ],
-  outputDir: 'test-results/',
-});
+│── README.md                    # Project documentation
+│── tsconfig.json                 # TypeScript configuration
 ```
 
 ---
 
 ## Reporting
 Test reports are automatically generated in:
-- **HTML Report** → `playwright-report/`
-- **JSON Report** → `test-results/results.json`
+- **HTML Report (`playwright-report/`)**
+- **JSON Report (`test-results/results.json`)**
 
-To view the HTML report locally:
+To view the report locally:
 ```bash
 npx playwright show-report
 ```
-
 ---
 
 ## Troubleshooting
