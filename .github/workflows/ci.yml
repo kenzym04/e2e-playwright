@@ -11,6 +11,11 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shardIndex: [1, 2, 3, 4, 5]
+        shardTotal: [5]
 
     steps:
       - name: Checkout Code
@@ -38,18 +43,18 @@ jobs:
         env:
           DATABASE_URL: "file:./dev.db"
         run: |
-          npx ts-node tests/testPrisma.ts
+          npx ts-node tests/utils/testPrisma.ts
 
       - name: Run Playwright Tests
         env:
           DATABASE_URL: "file:./dev.db"
-        run: npx playwright test
+        run: npx playwright test --workers=2 --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
 
       - name: Upload Playwright HTML Report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-report
+          name: playwright-report-${{ matrix.shardIndex }}
           path: playwright-report/
           retention-days: 7
 
@@ -57,7 +62,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-json-report
+          name: playwright-json-report-${{ matrix.shardIndex }}
           path: test-results/results.json
           retention-days: 7
 

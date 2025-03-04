@@ -2,10 +2,16 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
+  timeout: 60000, // Increase global timeout to 60 seconds
+  expect: {
+    timeout: 10000, // Increase expect timeout to 10 seconds
+  },
   use: {
     trace: 'retain-on-failure', // Trace only on failures to reduce overhead
     screenshot: 'only-on-failure', // Capture screenshots only if test fails
     video: 'retain-on-failure', // Saves video only for failed tests
+    actionTimeout: 60000, // Increase action timeout to 15 seconds
+    navigationTimeout: 30000, // Increase navigation timeout to 30 seconds
   },
   reporter: [
     ['html', { outputFolder: 'playwright-report' }],

@@ -75,7 +75,16 @@ test.describe('Prisma User Tests', () => {
     await page.getByText('AppUser', { exact: true }).click();  
     await page.getByTestId('where-filter').getByText('Filters').click();  
     await page.getByTestId('create-where-filter-btn').click();  
-    await page.getByTestId('where-filter__row__field').getByTestId('dropdown__item--selected').click();  
+    try {
+      console.log('Waiting for dropdown item...');
+      await page.getByTestId('where-filter__row__field').getByTestId('dropdown__item--selected').waitFor({ state: 'visible', timeout: 10000 });
+      console.log('Dropdown item found, clicking...');
+      await page.getByTestId('where-filter__row__field').getByTestId('dropdown__item--selected').click();
+      console.log('Dropdown item clicked successfully');
+    } catch (error) {
+      console.error('Error while interacting with dropdown:', error);
+      throw error; // Re-throw the error to fail the test
+    } 
     await page.getByTestId('modal').getByText('username').click();  
     await page.getByTestId('where-filter__row__value').fill(createdUser.username);    
 

@@ -46,7 +46,7 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 30000
+        "timeout": 60000
       },
       {
         "outputDir": "D:/watu-assignment-playwright/test-results",
@@ -60,7 +60,7 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 30000
+        "timeout": 60000
       },
       {
         "outputDir": "D:/watu-assignment-playwright/test-results",
@@ -74,7 +74,7 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 30000
+        "timeout": 60000
       },
       {
         "outputDir": "D:/watu-assignment-playwright/test-results",
@@ -88,7 +88,7 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 30000
+        "timeout": 60000
       },
       {
         "outputDir": "D:/watu-assignment-playwright/test-results",
@@ -102,7 +102,7 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 30000
+        "timeout": 60000
       }
     ],
     "shard": null,
@@ -132,7 +132,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -141,12 +141,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 11914,
+                      "duration": 15256,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:01:57.516Z",
+                      "startTime": "2025-03-04T14:37:19.705Z",
                       "attachments": []
                     }
                   ],
@@ -164,7 +164,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "webkit",
@@ -173,12 +173,12 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 17874,
+                      "duration": 16946,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:01:57.529Z",
+                      "startTime": "2025-03-04T14:37:19.725Z",
                       "attachments": []
                     }
                   ],
@@ -196,7 +196,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "firefox",
@@ -205,12 +205,12 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 17450,
+                      "duration": 19398,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:02:13.307Z",
+                      "startTime": "2025-03-04T14:37:30.960Z",
                       "attachments": []
                     }
                   ],
@@ -228,7 +228,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "mobile-chrome",
@@ -237,12 +237,12 @@
                     {
                       "workerIndex": 6,
                       "status": "passed",
-                      "duration": 11988,
+                      "duration": 17130,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:02:18.358Z",
+                      "startTime": "2025-03-04T14:37:37.563Z",
                       "attachments": []
                     }
                   ],
@@ -260,7 +260,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "mobile-safari",
@@ -269,12 +269,12 @@
                     {
                       "workerIndex": 8,
                       "status": "passed",
-                      "duration": 11694,
+                      "duration": 12618,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:02:34.037Z",
+                      "startTime": "2025-03-04T14:37:50.434Z",
                       "attachments": []
                     }
                   ],
@@ -309,7 +309,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -318,7 +318,7 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 194,
+                      "duration": 80,
                       "errors": [],
                       "stdout": [
                         {
@@ -328,10 +328,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'wilfrid.mcclure.ipbhs'\u001b[39m,\n  email: \u001b[32m'wilfrid_mcclure@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'xitiviwafupo'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'brando.berge.a1dta'\u001b[39m,\n  email: \u001b[32m'brando.berge96@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'bewocotusulo'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: wilfrid.mcclure.ipbhs\n"
+                          "text": "🔍 Searching for user: brando.berge.a1dta\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -339,7 +339,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:01:58.346Z",
+                      "startTime": "2025-03-04T14:37:20.260Z",
                       "attachments": []
                     }
                   ],
@@ -357,7 +357,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
@@ -366,11 +366,20 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 8434,
+                      "duration": 4792,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: wilfrid.mcclure.ipbhs\n"
+                          "text": "Waiting for dropdown item...\n"
+                        },
+                        {
+                          "text": "Dropdown item found, clicking...\n"
+                        },
+                        {
+                          "text": "Dropdown item clicked successfully\n"
+                        },
+                        {
+                          "text": "✅ Found exactly 1 record for username: brando.berge.a1dta\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -381,7 +390,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:02:02.669Z",
+                      "startTime": "2025-03-04T14:37:24.457Z",
                       "attachments": []
                     }
                   ],
@@ -399,7 +408,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "webkit",
@@ -408,7 +417,7 @@
                     {
                       "workerIndex": 3,
                       "status": "passed",
-                      "duration": 207,
+                      "duration": 78,
                       "errors": [],
                       "stdout": [
                         {
@@ -418,10 +427,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'adelle.johnston.q5brr'\u001b[39m,\n  email: \u001b[32m'adelle_johnston@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'rinisejegizi'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'reyna.mcclure.tlbqp'\u001b[39m,\n  email: \u001b[32m'reyna_mcclure@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'yuzuzaqezowo'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: adelle.johnston.q5brr\n"
+                          "text": "🔍 Searching for user: reyna.mcclure.tlbqp\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -429,7 +438,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:01:58.373Z",
+                      "startTime": "2025-03-04T14:37:20.249Z",
                       "attachments": []
                     }
                   ],
@@ -447,7 +456,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "webkit",
@@ -456,11 +465,20 @@
                     {
                       "workerIndex": 3,
                       "status": "passed",
-                      "duration": 23574,
+                      "duration": 11818,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: adelle.johnston.q5brr\n"
+                          "text": "Waiting for dropdown item...\n"
+                        },
+                        {
+                          "text": "Dropdown item found, clicking...\n"
+                        },
+                        {
+                          "text": "Dropdown item clicked successfully\n"
+                        },
+                        {
+                          "text": "✅ Found exactly 1 record for username: reyna.mcclure.tlbqp\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -471,7 +489,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:02:02.699Z",
+                      "startTime": "2025-03-04T14:37:24.437Z",
                       "attachments": []
                     }
                   ],
@@ -489,7 +507,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "firefox",
@@ -498,7 +516,7 @@
                     {
                       "workerIndex": 5,
                       "status": "passed",
-                      "duration": 338,
+                      "duration": 118,
                       "errors": [],
                       "stdout": [
                         {
@@ -508,10 +526,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'candida.lueilwitz.aix6x'\u001b[39m,\n  email: \u001b[32m'candida_lueilwitz8@yahoo.com'\u001b[39m,\n  rawPassword: \u001b[32m'tamuxixitimi'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'alyce.hilll.8o8fy'\u001b[39m,\n  email: \u001b[32m'alyce.hilll@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'qohokeboputu'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: candida.lueilwitz.aix6x\n"
+                          "text": "🔍 Searching for user: alyce.hilll.8o8fy\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -519,7 +537,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:02:15.863Z",
+                      "startTime": "2025-03-04T14:37:37.378Z",
                       "attachments": []
                     }
                   ],
@@ -537,7 +555,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "firefox",
@@ -546,11 +564,20 @@
                     {
                       "workerIndex": 5,
                       "status": "passed",
-                      "duration": 12988,
+                      "duration": 10976,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: candida.lueilwitz.aix6x\n"
+                          "text": "Waiting for dropdown item...\n"
+                        },
+                        {
+                          "text": "Dropdown item found, clicking...\n"
+                        },
+                        {
+                          "text": "Dropdown item clicked successfully\n"
+                        },
+                        {
+                          "text": "✅ Found exactly 1 record for username: alyce.hilll.8o8fy\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -561,7 +588,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:02:20.312Z",
+                      "startTime": "2025-03-04T14:37:41.557Z",
                       "attachments": []
                     }
                   ],
@@ -579,7 +606,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "mobile-chrome",
@@ -588,7 +615,7 @@
                     {
                       "workerIndex": 7,
                       "status": "passed",
-                      "duration": 198,
+                      "duration": 114,
                       "errors": [],
                       "stdout": [
                         {
@@ -598,10 +625,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'sigrid.ohara.kveuw'\u001b[39m,\n  email: \u001b[32m'sigrid_ohara@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'yenofitesume'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'reyna.kirlin.l09tz'\u001b[39m,\n  email: \u001b[32m'reyna.kirlin@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'nivoraqijade'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: sigrid.ohara.kveuw\n"
+                          "text": "🔍 Searching for user: reyna.kirlin.l09tz\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -609,7 +636,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:02:31.387Z",
+                      "startTime": "2025-03-04T14:37:38.523Z",
                       "attachments": []
                     }
                   ],
@@ -627,7 +654,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "mobile-chrome",
@@ -636,11 +663,20 @@
                     {
                       "workerIndex": 7,
                       "status": "passed",
-                      "duration": 5915,
+                      "duration": 4689,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: sigrid.ohara.kveuw\n"
+                          "text": "Waiting for dropdown item...\n"
+                        },
+                        {
+                          "text": "Dropdown item found, clicking...\n"
+                        },
+                        {
+                          "text": "Dropdown item clicked successfully\n"
+                        },
+                        {
+                          "text": "✅ Found exactly 1 record for username: reyna.kirlin.l09tz\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -651,7 +687,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:02:35.714Z",
+                      "startTime": "2025-03-04T14:37:42.703Z",
                       "attachments": []
                     }
                   ],
@@ -669,7 +705,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "mobile-safari",
@@ -678,7 +714,7 @@
                     {
                       "workerIndex": 9,
                       "status": "passed",
-                      "duration": 177,
+                      "duration": 81,
                       "errors": [],
                       "stdout": [
                         {
@@ -688,10 +724,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'jaydon.hansen.csjth'\u001b[39m,\n  email: \u001b[32m'jaydon.hansen@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'ketefovajopo'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'keshawn.erdman.j7ui6'\u001b[39m,\n  email: \u001b[32m'keshawn_erdman@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'runutigocike'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: jaydon.hansen.csjth\n"
+                          "text": "🔍 Searching for user: keshawn.erdman.j7ui6\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -699,7 +735,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:02:38.734Z",
+                      "startTime": "2025-03-04T14:37:53.637Z",
                       "attachments": []
                     }
                   ],
@@ -717,7 +753,7 @@
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "mobile-safari",
@@ -726,11 +762,20 @@
                     {
                       "workerIndex": 9,
                       "status": "passed",
-                      "duration": 10431,
+                      "duration": 5874,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: jaydon.hansen.csjth\n"
+                          "text": "Waiting for dropdown item...\n"
+                        },
+                        {
+                          "text": "Dropdown item found, clicking...\n"
+                        },
+                        {
+                          "text": "Dropdown item clicked successfully\n"
+                        },
+                        {
+                          "text": "✅ Found exactly 1 record for username: keshawn.erdman.j7ui6\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -741,7 +786,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T13:02:43.063Z",
+                      "startTime": "2025-03-04T14:37:57.764Z",
                       "attachments": []
                     }
                   ],
@@ -760,8 +805,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-04T13:01:54.825Z",
-    "duration": 58940.661,
+    "startTime": "2025-03-04T14:37:18.411Z",
+    "duration": 45367.936,
     "expected": 15,
     "skipped": 0,
     "unexpected": 0,
