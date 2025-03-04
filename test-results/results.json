@@ -134,14 +134,14 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 115,
+                  "duration": 113,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "✅ User Created: {\n  username: \u001b[32m'blair.rolfson.djmpm'\u001b[39m,\n  email: \u001b[32m'blair_rolfson@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'vanukipiyiro'\u001b[39m\n}\n"
+                      "text": "✅ User Created: {\n  username: \u001b[32m'burley.turcotte.zfhp9'\u001b[39m,\n  email: \u001b[32m'burley_turcotte@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'saxihelekuhi'\u001b[39m\n}\n"
                     },
                     {
-                      "text": "🔍 Searching for user: blair.rolfson.djmpm\n"
+                      "text": "🔍 Searching for user: burley.turcotte.zfhp9\n"
                     },
                     {
                       "text": "✅ User found in database\n"
@@ -152,7 +152,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-03-04T01:00:17.700Z",
+                  "startTime": "2025-03-04T01:21:21.723Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -185,14 +185,14 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 109,
+                  "duration": 134,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "✅ User Created: {\n  username: \u001b[32m'don.christiansenwehner.2sr8g'\u001b[39m,\n  email: \u001b[32m'don_christiansen-wehner@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'toxeguweyusu'\u001b[39m\n}\n"
+                      "text": "✅ User Created: {\n  username: \u001b[32m'korbin.okuneva.8k4uk'\u001b[39m,\n  email: \u001b[32m'korbin.okuneva49@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'zokovuhopiqo'\u001b[39m\n}\n"
                     },
                     {
-                      "text": "🔍 Searching for user: don.christiansenwehner.2sr8g\n"
+                      "text": "🔍 Searching for user: korbin.okuneva.8k4uk\n"
                     },
                     {
                       "text": "✅ User found in database\n"
@@ -203,7 +203,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-03-04T01:00:17.712Z",
+                  "startTime": "2025-03-04T01:21:21.750Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -236,14 +236,14 @@
                 {
                   "workerIndex": 4,
                   "status": "passed",
-                  "duration": 117,
+                  "duration": 156,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "✅ User Created: {\n  username: \u001b[32m'ken.hackettkunde.riwfa'\u001b[39m,\n  email: \u001b[32m'ken_hackett-kunde90@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'rumuhatocewi'\u001b[39m\n}\n"
+                      "text": "✅ User Created: {\n  username: \u001b[32m'rashad.schowalter.oi0u3'\u001b[39m,\n  email: \u001b[32m'rashad.schowalter16@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'vakediciwuto'\u001b[39m\n}\n"
                     },
                     {
-                      "text": "🔍 Searching for user: ken.hackettkunde.riwfa\n"
+                      "text": "🔍 Searching for user: rashad.schowalter.oi0u3\n"
                     },
                     {
                       "text": "✅ User found in database\n"
@@ -254,7 +254,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-03-04T01:00:17.740Z",
+                  "startTime": "2025-03-04T01:21:21.743Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -287,14 +287,14 @@
                 {
                   "workerIndex": 6,
                   "status": "passed",
-                  "duration": 102,
+                  "duration": 104,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "✅ User Created: {\n  username: \u001b[32m'rico.jenkins.jcntb'\u001b[39m,\n  email: \u001b[32m'rico_jenkins@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'fejepeqaseha'\u001b[39m\n}\n"
+                      "text": "✅ User Created: {\n  username: \u001b[32m'omari.smitham.dzsod'\u001b[39m,\n  email: \u001b[32m'omari.smitham65@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'zicedufetuzo'\u001b[39m\n}\n"
                     },
                     {
-                      "text": "🔍 Searching for user: rico.jenkins.jcntb\n"
+                      "text": "🔍 Searching for user: omari.smitham.dzsod\n"
                     },
                     {
                       "text": "✅ User found in database\n"
@@ -305,7 +305,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-03-04T01:00:19.702Z",
+                  "startTime": "2025-03-04T01:21:23.553Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -338,14 +338,14 @@
                 {
                   "workerIndex": 8,
                   "status": "passed",
-                  "duration": 109,
+                  "duration": 108,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "✅ User Created: {\n  username: \u001b[32m'elmore.simoniseffertz.8r2sk'\u001b[39m,\n  email: \u001b[32m'elmore.simonis-effertz51@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'vuhiyisokeli'\u001b[39m\n}\n"
+                      "text": "✅ User Created: {\n  username: \u001b[32m'imani.hane.9gvke'\u001b[39m,\n  email: \u001b[32m'imani.hane59@yahoo.com'\u001b[39m,\n  rawPassword: \u001b[32m'xikosayijate'\u001b[39m\n}\n"
                     },
                     {
-                      "text": "🔍 Searching for user: elmore.simoniseffertz.8r2sk\n"
+                      "text": "🔍 Searching for user: imani.hane.9gvke\n"
                     },
                     {
                       "text": "✅ User found in database\n"
@@ -356,7 +356,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-03-04T01:00:19.719Z",
+                  "startTime": "2025-03-04T01:21:23.589Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -404,12 +404,12 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 9525,
+                      "duration": 9955,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T01:00:17.109Z",
+                      "startTime": "2025-03-04T01:21:21.141Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -447,12 +447,12 @@
                     {
                       "workerIndex": 3,
                       "status": "passed",
-                      "duration": 8841,
+                      "duration": 8096,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T01:00:17.179Z",
+                      "startTime": "2025-03-04T01:21:21.147Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -490,12 +490,12 @@
                     {
                       "workerIndex": 5,
                       "status": "passed",
-                      "duration": 7520,
+                      "duration": 8441,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T01:00:17.222Z",
+                      "startTime": "2025-03-04T01:21:21.238Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -533,12 +533,12 @@
                     {
                       "workerIndex": 7,
                       "status": "passed",
-                      "duration": 7994,
+                      "duration": 7443,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T01:00:19.240Z",
+                      "startTime": "2025-03-04T01:21:23.106Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -576,12 +576,12 @@
                     {
                       "workerIndex": 9,
                       "status": "passed",
-                      "duration": 7572,
+                      "duration": 6761,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T01:00:20.892Z",
+                      "startTime": "2025-03-04T01:21:24.521Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -611,8 +611,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-04T01:00:15.608Z",
-    "duration": 13038.989000000001,
+    "startTime": "2025-03-04T01:21:19.665Z",
+    "duration": 11862.708,
     "expected": 10,
     "skipped": 0,
     "unexpected": 0,

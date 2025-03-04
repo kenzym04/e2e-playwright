@@ -41,6 +41,8 @@ jobs:
           npx ts-node tests/testPrisma.ts
 
       - name: Run Playwright Tests
+        env:
+          DATABASE_URL: "file:./dev.db"
         run: npx playwright test
 
       - name: Upload Playwright HTML Report
