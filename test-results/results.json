@@ -123,7 +123,7 @@
         {
           "title": "Prisma User Tests",
           "file": "prisma-user-creation.spec.ts",
-          "line": 40,
+          "line": 46,
           "column": 15,
           "specs": [
             {
@@ -141,11 +141,11 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 8042,
+                      "duration": 5043,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "🚀 Starting Prisma Studio...\n"
+                          "text": "🏃 Starting Prisma Studio...\n"
                         },
                         {
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
@@ -153,7 +153,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:41.480Z",
+                      "startTime": "2025-03-04T10:22:52.503Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -168,7 +168,7 @@
               ],
               "id": "b33e012e4abba7f970fd-f5fff544c5a28fa46878",
               "file": "prisma-user-creation.spec.ts",
-              "line": 42,
+              "line": 48,
               "column": 7
             },
             {
@@ -186,14 +186,14 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 219,
+                      "duration": 225,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'shemar.tremblay.rxcfl'\u001b[39m,\n  email: \u001b[32m'shemar.tremblay@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'paxahahapibo'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'hortense.casper.byjzw'\u001b[39m,\n  email: \u001b[32m'hortense.casper80@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'mujizihipepo'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: shemar.tremblay.rxcfl\n"
+                          "text": "🔍 Searching for user: hortense.casper.byjzw\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -201,7 +201,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:49.579Z",
+                      "startTime": "2025-03-04T10:22:57.604Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -216,7 +216,7 @@
               ],
               "id": "b33e012e4abba7f970fd-e58f6010a3c9a1e1edf1",
               "file": "prisma-user-creation.spec.ts",
-              "line": 51,
+              "line": 56,
               "column": 7
             },
             {
@@ -234,11 +234,11 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 7876,
+                      "duration": 10301,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: shemar.tremblay.rxcfl\n"
+                          "text": "✅ Found exactly 1 record for username: hortense.casper.byjzw\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -249,7 +249,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:49.822Z",
+                      "startTime": "2025-03-04T10:22:57.886Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -269,7 +269,7 @@
               ],
               "id": "b33e012e4abba7f970fd-d12730f534fb79cb0593",
               "file": "prisma-user-creation.spec.ts",
-              "line": 68,
+              "line": 70,
               "column": 7
             },
             {
@@ -287,11 +287,11 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 8052,
+                      "duration": 5044,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "🚀 Starting Prisma Studio...\n"
+                          "text": "🏃 Starting Prisma Studio...\n"
                         },
                         {
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
@@ -299,7 +299,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:41.502Z",
+                      "startTime": "2025-03-04T10:22:52.503Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -314,7 +314,7 @@
               ],
               "id": "b33e012e4abba7f970fd-771bcc71f19d02880b58",
               "file": "prisma-user-creation.spec.ts",
-              "line": 42,
+              "line": 48,
               "column": 7
             },
             {
@@ -332,14 +332,14 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 189,
+                      "duration": 282,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'evans.harvey.htnh0'\u001b[39m,\n  email: \u001b[32m'evans_harvey21@yahoo.com'\u001b[39m,\n  rawPassword: \u001b[32m'hevekupeluzi'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'jerry.kertzmannbeer.sjuwe'\u001b[39m,\n  email: \u001b[32m'jerry.kertzmann-beer89@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'juraberiteli'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: evans.harvey.htnh0\n"
+                          "text": "🔍 Searching for user: jerry.kertzmannbeer.sjuwe\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -347,7 +347,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:49.607Z",
+                      "startTime": "2025-03-04T10:22:57.609Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -362,7 +362,7 @@
               ],
               "id": "b33e012e4abba7f970fd-e883206adfe80f412110",
               "file": "prisma-user-creation.spec.ts",
-              "line": 51,
+              "line": 56,
               "column": 7
             },
             {
@@ -380,11 +380,11 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 10366,
+                      "duration": 13041,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: evans.harvey.htnh0\n"
+                          "text": "✅ Found exactly 1 record for username: jerry.kertzmannbeer.sjuwe\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -395,7 +395,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:49.821Z",
+                      "startTime": "2025-03-04T10:22:57.952Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -415,7 +415,7 @@
               ],
               "id": "b33e012e4abba7f970fd-3b748a3ac44af182c2e7",
               "file": "prisma-user-creation.spec.ts",
-              "line": 68,
+              "line": 70,
               "column": 7
             },
             {
@@ -433,11 +433,11 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 8061,
+                      "duration": 5050,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "🚀 Starting Prisma Studio...\n"
+                          "text": "🏃 Starting Prisma Studio...\n"
                         },
                         {
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
@@ -445,7 +445,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:41.596Z",
+                      "startTime": "2025-03-04T10:22:52.512Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -460,7 +460,7 @@
               ],
               "id": "b33e012e4abba7f970fd-6b7b00652aa399274959",
               "file": "prisma-user-creation.spec.ts",
-              "line": 42,
+              "line": 48,
               "column": 7
             },
             {
@@ -478,14 +478,14 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 203,
+                      "duration": 209,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'kaylee.casper.7pi5y'\u001b[39m,\n  email: \u001b[32m'kaylee_casper@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'jajopisuyoba'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'alessandro.ferry.atpjb'\u001b[39m,\n  email: \u001b[32m'alessandro_ferry@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'vujocukakefu'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: kaylee.casper.7pi5y\n"
+                          "text": "🔍 Searching for user: alessandro.ferry.atpjb\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -493,7 +493,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:49.710Z",
+                      "startTime": "2025-03-04T10:22:57.621Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -508,7 +508,7 @@
               ],
               "id": "b33e012e4abba7f970fd-597809879a08a1f614a8",
               "file": "prisma-user-creation.spec.ts",
-              "line": 51,
+              "line": 56,
               "column": 7
             },
             {
@@ -526,11 +526,11 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 18351,
+                      "duration": 20972,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: kaylee.casper.7pi5y\n"
+                          "text": "✅ Found exactly 1 record for username: alessandro.ferry.atpjb\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -541,7 +541,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:49.935Z",
+                      "startTime": "2025-03-04T10:22:57.885Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -561,7 +561,7 @@
               ],
               "id": "b33e012e4abba7f970fd-d51ad642a3a0eb1bd8c2",
               "file": "prisma-user-creation.spec.ts",
-              "line": 68,
+              "line": 70,
               "column": 7
             },
             {
@@ -579,11 +579,11 @@
                     {
                       "workerIndex": 3,
                       "status": "passed",
-                      "duration": 8047,
+                      "duration": 5048,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "🚀 Starting Prisma Studio...\n"
+                          "text": "🏃 Starting Prisma Studio...\n"
                         },
                         {
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
@@ -591,7 +591,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:41.490Z",
+                      "startTime": "2025-03-04T10:22:52.515Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -606,7 +606,7 @@
               ],
               "id": "b33e012e4abba7f970fd-69414e309de06af87cef",
               "file": "prisma-user-creation.spec.ts",
-              "line": 42,
+              "line": 48,
               "column": 7
             },
             {
@@ -624,14 +624,14 @@
                     {
                       "workerIndex": 3,
                       "status": "passed",
-                      "duration": 194,
+                      "duration": 319,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'alexanne.hermiston.a3eoj'\u001b[39m,\n  email: \u001b[32m'alexanne_hermiston53@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'ducoziqevumo'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'reed.schumm.ixmad'\u001b[39m,\n  email: \u001b[32m'reed.schumm52@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'rifesomisexo'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: alexanne.hermiston.a3eoj\n"
+                          "text": "🔍 Searching for user: reed.schumm.ixmad\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -639,7 +639,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:49.585Z",
+                      "startTime": "2025-03-04T10:22:57.621Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -654,7 +654,7 @@
               ],
               "id": "b33e012e4abba7f970fd-768b788963dcec4b0d4d",
               "file": "prisma-user-creation.spec.ts",
-              "line": 51,
+              "line": 56,
               "column": 7
             },
             {
@@ -672,11 +672,11 @@
                     {
                       "workerIndex": 3,
                       "status": "passed",
-                      "duration": 8096,
+                      "duration": 9706,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: alexanne.hermiston.a3eoj\n"
+                          "text": "✅ Found exactly 1 record for username: reed.schumm.ixmad\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -687,7 +687,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:49.803Z",
+                      "startTime": "2025-03-04T10:22:57.986Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -707,7 +707,7 @@
               ],
               "id": "b33e012e4abba7f970fd-334f7fba09f45fa192e9",
               "file": "prisma-user-creation.spec.ts",
-              "line": 68,
+              "line": 70,
               "column": 7
             },
             {
@@ -725,11 +725,11 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 8052,
+                      "duration": 5052,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "🚀 Starting Prisma Studio...\n"
+                          "text": "🏃 Starting Prisma Studio...\n"
                         },
                         {
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
@@ -737,7 +737,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:41.573Z",
+                      "startTime": "2025-03-04T10:22:52.556Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -752,7 +752,7 @@
               ],
               "id": "b33e012e4abba7f970fd-940924f0833b5f474186",
               "file": "prisma-user-creation.spec.ts",
-              "line": 42,
+              "line": 48,
               "column": 7
             },
             {
@@ -770,14 +770,14 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 242,
+                      "duration": 234,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'jaeden.ratkechristiansen.ppuws'\u001b[39m,\n  email: \u001b[32m'jaeden.ratke-christiansen@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'zoquvunafoyi'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'natalie.dach.9g6rm'\u001b[39m,\n  email: \u001b[32m'natalie.dach34@yahoo.com'\u001b[39m,\n  rawPassword: \u001b[32m'ficuhaxuxadi'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: jaeden.ratkechristiansen.ppuws\n"
+                          "text": "🔍 Searching for user: natalie.dach.9g6rm\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -785,7 +785,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:49.681Z",
+                      "startTime": "2025-03-04T10:22:57.670Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -800,7 +800,7 @@
               ],
               "id": "b33e012e4abba7f970fd-5897aa69c8b7f7d9a602",
               "file": "prisma-user-creation.spec.ts",
-              "line": 51,
+              "line": 56,
               "column": 7
             },
             {
@@ -818,11 +818,11 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 16488,
+                      "duration": 20084,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: jaeden.ratkechristiansen.ppuws\n"
+                          "text": "✅ Found exactly 1 record for username: natalie.dach.9g6rm\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -833,7 +833,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:08:49.949Z",
+                      "startTime": "2025-03-04T10:22:57.943Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -853,7 +853,7 @@
               ],
               "id": "b33e012e4abba7f970fd-5380b9e054531424650d",
               "file": "prisma-user-creation.spec.ts",
-              "line": 68,
+              "line": 70,
               "column": 7
             }
           ]
@@ -863,8 +863,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-04T10:08:38.131Z",
-    "duration": 30666.982,
+    "startTime": "2025-03-04T10:22:49.260Z",
+    "duration": 30104.157,
     "expected": 15,
     "skipped": 0,
     "unexpected": 0,
