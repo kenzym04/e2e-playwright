@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 5
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "reporter": [
@@ -53,8 +53,8 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {},
-        "id": "firefox",
-        "name": "firefox",
+        "id": "webkit",
+        "name": "webkit",
         "testDir": "D:/watu-assignment-playwright/tests",
         "testIgnore": [],
         "testMatch": [
@@ -67,8 +67,8 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {},
-        "id": "webkit",
-        "name": "webkit",
+        "id": "firefox",
+        "name": "firefox",
         "testDir": "D:/watu-assignment-playwright/tests",
         "testIgnore": [],
         "testMatch": [
@@ -109,69 +109,201 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.50.1",
-    "workers": 6,
+    "workers": 4,
     "webServer": null
   },
   "suites": [
     {
-      "title": "prisma-user-creation.spec.ts",
-      "file": "prisma-user-creation.spec.ts",
+      "title": "e2e\\web-books-inspect.spec.ts",
+      "file": "e2e/web-books-inspect.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Web Books Page Visibility",
+          "file": "e2e/web-books-inspect.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should load login page and verify elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 11914,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-04T13:01:57.516Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "01cc33b816c6cd9d4b79-69d4a7865b0777e0c6d1",
+              "file": "e2e/web-books-inspect.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should load login page and verify elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 17874,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-04T13:01:57.529Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "01cc33b816c6cd9d4b79-629a8c81a8728fa6ae00",
+              "file": "e2e/web-books-inspect.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should load login page and verify elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 17450,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-04T13:02:13.307Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "01cc33b816c6cd9d4b79-bc1b688c2a08cd4b1f47",
+              "file": "e2e/web-books-inspect.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should load login page and verify elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 11988,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-04T13:02:18.358Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "01cc33b816c6cd9d4b79-35660d2552097b0313b2",
+              "file": "e2e/web-books-inspect.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should load login page and verify elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-safari",
+                  "projectName": "mobile-safari",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "status": "passed",
+                      "duration": 11694,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-04T13:02:34.037Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "01cc33b816c6cd9d4b79-42cd473b6b513d62105a",
+              "file": "e2e/web-books-inspect.spec.ts",
+              "line": 8,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "integration\\prisma-user-creation.spec.ts",
+      "file": "integration/prisma-user-creation.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Prisma User Tests",
-          "file": "prisma-user-creation.spec.ts",
+          "file": "integration/prisma-user-creation.spec.ts",
           "line": 46,
-          "column": 15,
+          "column": 6,
           "specs": [
             {
-              "title": "Open Prisma Studio",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 5043,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "🏃 Starting Prisma Studio...\n"
-                        },
-                        {
-                          "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-04T10:22:52.503Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prisma-User-Tests-Open-Prisma-Studio-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "b33e012e4abba7f970fd-f5fff544c5a28fa46878",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 48,
-              "column": 7
-            },
-            {
               "title": "Verify user exists in the database",
               "ok": true,
               "tags": [],
@@ -184,16 +316,22 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 225,
+                      "duration": 194,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'hortense.casper.byjzw'\u001b[39m,\n  email: \u001b[32m'hortense.casper80@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'mujizihipepo'\u001b[39m\n}\n"
+                          "text": "🏃 Starting Prisma Studio...\n"
                         },
                         {
-                          "text": "🔍 Searching for user: hortense.casper.byjzw\n"
+                          "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
+                        },
+                        {
+                          "text": "✅ User Created: {\n  username: \u001b[32m'wilfrid.mcclure.ipbhs'\u001b[39m,\n  email: \u001b[32m'wilfrid_mcclure@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'xitiviwafupo'\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "🔍 Searching for user: wilfrid.mcclure.ipbhs\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -201,22 +339,16 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:22:57.604Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-ff3fc-user-exists-in-the-database-chromium\\trace.zip"
-                        }
-                      ]
+                      "startTime": "2025-03-04T13:01:58.346Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "b33e012e4abba7f970fd-e58f6010a3c9a1e1edf1",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 56,
+              "id": "970ba0cbfcd96bf5bd03-dc745c7aa41139537b4c",
+              "file": "integration/prisma-user-creation.spec.ts",
+              "line": 57,
               "column": 7
             },
             {
@@ -232,13 +364,13 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 10301,
+                      "duration": 8434,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: hortense.casper.byjzw\n"
+                          "text": "✅ Found exactly 1 record for username: wilfrid.mcclure.ipbhs\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -249,218 +381,16 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:22:57.886Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-f89b7-y-username-in-Prisma-Studio-chromium\\test-finished-1.png"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-f89b7-y-username-in-Prisma-Studio-chromium\\trace.zip"
-                        }
-                      ]
+                      "startTime": "2025-03-04T13:02:02.669Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "b33e012e4abba7f970fd-d12730f534fb79cb0593",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 70,
-              "column": 7
-            },
-            {
-              "title": "Open Prisma Studio",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 5044,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "🏃 Starting Prisma Studio...\n"
-                        },
-                        {
-                          "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-04T10:22:52.503Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prisma-User-Tests-Open-Prisma-Studio-firefox\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "b33e012e4abba7f970fd-771bcc71f19d02880b58",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 48,
-              "column": 7
-            },
-            {
-              "title": "Verify user exists in the database",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 282,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'jerry.kertzmannbeer.sjuwe'\u001b[39m,\n  email: \u001b[32m'jerry.kertzmann-beer89@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'juraberiteli'\u001b[39m\n}\n"
-                        },
-                        {
-                          "text": "🔍 Searching for user: jerry.kertzmannbeer.sjuwe\n"
-                        },
-                        {
-                          "text": "✅ User found in database\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-04T10:22:57.609Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-ff3fc-user-exists-in-the-database-firefox\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "b33e012e4abba7f970fd-e883206adfe80f412110",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 56,
-              "column": 7
-            },
-            {
-              "title": "Filter user by username in Prisma Studio",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 13041,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "✅ Found exactly 1 record for username: jerry.kertzmannbeer.sjuwe\n"
-                        },
-                        {
-                          "text": "✅ Prisma Studio closed.\n"
-                        },
-                        {
-                          "text": "🗑️ Test user deleted.\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-04T10:22:57.952Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-f89b7-y-username-in-Prisma-Studio-firefox\\test-finished-1.png"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-f89b7-y-username-in-Prisma-Studio-firefox\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "b33e012e4abba7f970fd-3b748a3ac44af182c2e7",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 70,
-              "column": 7
-            },
-            {
-              "title": "Open Prisma Studio",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "webkit",
-                  "projectName": "webkit",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "status": "passed",
-                      "duration": 5050,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "🏃 Starting Prisma Studio...\n"
-                        },
-                        {
-                          "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-04T10:22:52.512Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prisma-User-Tests-Open-Prisma-Studio-webkit\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "b33e012e4abba7f970fd-6b7b00652aa399274959",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 48,
+              "id": "970ba0cbfcd96bf5bd03-43bc35d706b06535b2d7",
+              "file": "integration/prisma-user-creation.spec.ts",
+              "line": 71,
               "column": 7
             },
             {
@@ -476,16 +406,22 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 3,
                       "status": "passed",
-                      "duration": 209,
+                      "duration": 207,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'alessandro.ferry.atpjb'\u001b[39m,\n  email: \u001b[32m'alessandro_ferry@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'vujocukakefu'\u001b[39m\n}\n"
+                          "text": "🏃 Starting Prisma Studio...\n"
                         },
                         {
-                          "text": "🔍 Searching for user: alessandro.ferry.atpjb\n"
+                          "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
+                        },
+                        {
+                          "text": "✅ User Created: {\n  username: \u001b[32m'adelle.johnston.q5brr'\u001b[39m,\n  email: \u001b[32m'adelle_johnston@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'rinisejegizi'\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "🔍 Searching for user: adelle.johnston.q5brr\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -493,22 +429,16 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:22:57.621Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-ff3fc-user-exists-in-the-database-webkit\\trace.zip"
-                        }
-                      ]
+                      "startTime": "2025-03-04T13:01:58.373Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "b33e012e4abba7f970fd-597809879a08a1f614a8",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 56,
+              "id": "970ba0cbfcd96bf5bd03-273e2c394fb7ddf7a2f9",
+              "file": "integration/prisma-user-creation.spec.ts",
+              "line": 57,
               "column": 7
             },
             {
@@ -524,13 +454,13 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 3,
                       "status": "passed",
-                      "duration": 20972,
+                      "duration": 23574,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: alessandro.ferry.atpjb\n"
+                          "text": "✅ Found exactly 1 record for username: adelle.johnston.q5brr\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -541,31 +471,20 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:22:57.885Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-f89b7-y-username-in-Prisma-Studio-webkit\\test-finished-1.png"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-f89b7-y-username-in-Prisma-Studio-webkit\\trace.zip"
-                        }
-                      ]
+                      "startTime": "2025-03-04T13:02:02.699Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "b33e012e4abba7f970fd-d51ad642a3a0eb1bd8c2",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 70,
+              "id": "970ba0cbfcd96bf5bd03-5d91f3e5e777690fc337",
+              "file": "integration/prisma-user-creation.spec.ts",
+              "line": 71,
               "column": 7
             },
             {
-              "title": "Open Prisma Studio",
+              "title": "Verify user exists in the database",
               "ok": true,
               "tags": [],
               "tests": [
@@ -573,13 +492,13 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "mobile-chrome",
-                  "projectName": "mobile-chrome",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 5,
                       "status": "passed",
-                      "duration": 5048,
+                      "duration": 338,
                       "errors": [],
                       "stdout": [
                         {
@@ -587,26 +506,71 @@
                         },
                         {
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
+                        },
+                        {
+                          "text": "✅ User Created: {\n  username: \u001b[32m'candida.lueilwitz.aix6x'\u001b[39m,\n  email: \u001b[32m'candida_lueilwitz8@yahoo.com'\u001b[39m,\n  rawPassword: \u001b[32m'tamuxixitimi'\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "🔍 Searching for user: candida.lueilwitz.aix6x\n"
+                        },
+                        {
+                          "text": "✅ User found in database\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:22:52.515Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prisma-User-Tests-Open-Prisma-Studio-mobile-chrome\\trace.zip"
-                        }
-                      ]
+                      "startTime": "2025-03-04T13:02:15.863Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "b33e012e4abba7f970fd-69414e309de06af87cef",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 48,
+              "id": "970ba0cbfcd96bf5bd03-c74817f11ab0b9ba6628",
+              "file": "integration/prisma-user-creation.spec.ts",
+              "line": 57,
+              "column": 7
+            },
+            {
+              "title": "Filter user by username in Prisma Studio",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 12988,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Found exactly 1 record for username: candida.lueilwitz.aix6x\n"
+                        },
+                        {
+                          "text": "✅ Prisma Studio closed.\n"
+                        },
+                        {
+                          "text": "🗑️ Test user deleted.\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-04T13:02:20.312Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "970ba0cbfcd96bf5bd03-921f9d7c2e53fe1d2696",
+              "file": "integration/prisma-user-creation.spec.ts",
+              "line": 71,
               "column": 7
             },
             {
@@ -622,16 +586,22 @@
                   "projectName": "mobile-chrome",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 7,
                       "status": "passed",
-                      "duration": 319,
+                      "duration": 198,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'reed.schumm.ixmad'\u001b[39m,\n  email: \u001b[32m'reed.schumm52@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'rifesomisexo'\u001b[39m\n}\n"
+                          "text": "🏃 Starting Prisma Studio...\n"
                         },
                         {
-                          "text": "🔍 Searching for user: reed.schumm.ixmad\n"
+                          "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
+                        },
+                        {
+                          "text": "✅ User Created: {\n  username: \u001b[32m'sigrid.ohara.kveuw'\u001b[39m,\n  email: \u001b[32m'sigrid_ohara@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'yenofitesume'\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "🔍 Searching for user: sigrid.ohara.kveuw\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -639,22 +609,16 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:22:57.621Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-ff3fc-user-exists-in-the-database-mobile-chrome\\trace.zip"
-                        }
-                      ]
+                      "startTime": "2025-03-04T13:02:31.387Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "b33e012e4abba7f970fd-768b788963dcec4b0d4d",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 56,
+              "id": "970ba0cbfcd96bf5bd03-2f9b87d07d63749d78de",
+              "file": "integration/prisma-user-creation.spec.ts",
+              "line": 57,
               "column": 7
             },
             {
@@ -670,13 +634,13 @@
                   "projectName": "mobile-chrome",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 7,
                       "status": "passed",
-                      "duration": 9706,
+                      "duration": 5915,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: reed.schumm.ixmad\n"
+                          "text": "✅ Found exactly 1 record for username: sigrid.ohara.kveuw\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -687,72 +651,16 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:22:57.986Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-f89b7-y-username-in-Prisma-Studio-mobile-chrome\\test-finished-1.png"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-f89b7-y-username-in-Prisma-Studio-mobile-chrome\\trace.zip"
-                        }
-                      ]
+                      "startTime": "2025-03-04T13:02:35.714Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "b33e012e4abba7f970fd-334f7fba09f45fa192e9",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 70,
-              "column": 7
-            },
-            {
-              "title": "Open Prisma Studio",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "mobile-safari",
-                  "projectName": "mobile-safari",
-                  "results": [
-                    {
-                      "workerIndex": 4,
-                      "status": "passed",
-                      "duration": 5052,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "🏃 Starting Prisma Studio...\n"
-                        },
-                        {
-                          "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-04T10:22:52.556Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prisma-User-Tests-Open-Prisma-Studio-mobile-safari\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "b33e012e4abba7f970fd-940924f0833b5f474186",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 48,
+              "id": "970ba0cbfcd96bf5bd03-36179ec2a1da664a4ae5",
+              "file": "integration/prisma-user-creation.spec.ts",
+              "line": 71,
               "column": 7
             },
             {
@@ -768,16 +676,22 @@
                   "projectName": "mobile-safari",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 9,
                       "status": "passed",
-                      "duration": 234,
+                      "duration": 177,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'natalie.dach.9g6rm'\u001b[39m,\n  email: \u001b[32m'natalie.dach34@yahoo.com'\u001b[39m,\n  rawPassword: \u001b[32m'ficuhaxuxadi'\u001b[39m\n}\n"
+                          "text": "🏃 Starting Prisma Studio...\n"
                         },
                         {
-                          "text": "🔍 Searching for user: natalie.dach.9g6rm\n"
+                          "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
+                        },
+                        {
+                          "text": "✅ User Created: {\n  username: \u001b[32m'jaydon.hansen.csjth'\u001b[39m,\n  email: \u001b[32m'jaydon.hansen@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'ketefovajopo'\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "🔍 Searching for user: jaydon.hansen.csjth\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -785,22 +699,16 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:22:57.670Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-ff3fc-user-exists-in-the-database-mobile-safari\\trace.zip"
-                        }
-                      ]
+                      "startTime": "2025-03-04T13:02:38.734Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "b33e012e4abba7f970fd-5897aa69c8b7f7d9a602",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 56,
+              "id": "970ba0cbfcd96bf5bd03-54e2d2845f03f56db50d",
+              "file": "integration/prisma-user-creation.spec.ts",
+              "line": 57,
               "column": 7
             },
             {
@@ -816,13 +724,13 @@
                   "projectName": "mobile-safari",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 9,
                       "status": "passed",
-                      "duration": 20084,
+                      "duration": 10431,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "✅ Found exactly 1 record for username: natalie.dach.9g6rm\n"
+                          "text": "✅ Found exactly 1 record for username: jaydon.hansen.csjth\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -833,27 +741,16 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T10:22:57.943Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-f89b7-y-username-in-Prisma-Studio-mobile-safari\\test-finished-1.png"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "D:\\watu-assignment-playwright\\test-results\\prisma-user-creation-Prism-f89b7-y-username-in-Prisma-Studio-mobile-safari\\trace.zip"
-                        }
-                      ]
+                      "startTime": "2025-03-04T13:02:43.063Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "b33e012e4abba7f970fd-5380b9e054531424650d",
-              "file": "prisma-user-creation.spec.ts",
-              "line": 70,
+              "id": "970ba0cbfcd96bf5bd03-d616901493b9574b49be",
+              "file": "integration/prisma-user-creation.spec.ts",
+              "line": 71,
               "column": 7
             }
           ]
@@ -863,8 +760,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-04T10:22:49.260Z",
-    "duration": 30104.157,
+    "startTime": "2025-03-04T13:01:54.825Z",
+    "duration": 58940.661,
     "expected": 15,
     "skipped": 0,
     "unexpected": 0,

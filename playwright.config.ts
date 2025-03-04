@@ -3,13 +3,13 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   use: {
-    trace: 'on',  // Enables tracing for debugging
-    screenshot: 'on',  // Captures screenshots
-    video: 'retain-on-failure',  // Saves video only if test fails
+    trace: 'retain-on-failure', // Trace only on failures to reduce overhead
+    screenshot: 'only-on-failure', // Capture screenshots only if test fails
+    video: 'retain-on-failure', // Saves video only for failed tests
   },
   reporter: [
-    ['html', { outputFolder: 'playwright-report' }], // Generates an HTML report
-    ['json', { outputFile: 'test-results/results.json' }], // JSON report for structured data
+    ['html', { outputFolder: 'playwright-report' }],
+    ['json', { outputFile: 'test-results/results.json' }],
   ],
   projects: [
     {
@@ -17,12 +17,12 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
     {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-    {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
+    },
+    {
+      name: 'firefox',
+      use: { ...devices['Desktop Firefox'] },
     },
     {
       name: 'mobile-chrome',
@@ -33,5 +33,6 @@ export default defineConfig({
       use: { ...devices['iPhone 12'] },
     },
   ],
+  workers: 5, // Run tests in parallel to improve speed
   outputDir: 'test-results/', // Stores test artifacts (traces, videos, screenshots)
 });
