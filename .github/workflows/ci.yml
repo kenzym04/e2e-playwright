@@ -1,4 +1,4 @@
-name: Playwright Tests
+name: CI/CD Pipeline
 
 on:
   push:
@@ -13,21 +13,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Code
         uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm install
 
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run Playwright tests
+      - name: Set Up Database
+        env:
+          DATABASE_URL: "file:./dev.db"
+        run: |
+          npx prisma migrate dev --name init
+          npx prisma generate
+
+      - name: Run Prisma Tests
+        env:
+          DATABASE_URL: "file:./dev.db"
+        run: |
+          npx ts-node tests/testPrisma.ts
+
+      - name: Run Playwright Tests
         run: npx playwright test
 
       - name: Upload Playwright HTML Report
@@ -45,3 +58,15 @@ jobs:
           name: playwright-json-report
           path: test-results/results.json
           retention-days: 7
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Deploy Application
+        run: echo "Deploy steps go here!"

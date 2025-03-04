@@ -43,6 +43,8 @@ node_modules/
 jspm_packages/
 package-lock.json
 playwright-report/
+.env
+.gitignore
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/

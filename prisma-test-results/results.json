@@ -1,0 +1,129 @@
+{
+  "config": {
+    "configFile": "D:\\watu-assignment-playwright\\playwright.config.prisma.ts",
+    "rootDir": "D:/watu-assignment-playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "prisma-test-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "prisma-test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/watu-assignment-playwright/prisma-test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/watu-assignment-playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.50.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "prisma-user-creation.spec.ts",
+      "file": "prisma-user-creation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Verify user exists in the database",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 88,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "✅ User Created: {\n  username: \u001b[32m'melyna.huels.eihnu'\u001b[39m,\n  email: \u001b[32m'melyna_huels@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'nimudexeveho'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "🔍 Searching for user: melyna.huels.eihnu\n"
+                    },
+                    {
+                      "text": "✅ User found in database\n"
+                    },
+                    {
+                      "text": "🗑️ Test user deleted.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-04T00:42:31.814Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "D:\\watu-assignment-playwright\\prisma-test-results\\prisma-user-creation-Verify-user-exists-in-the-database-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b33e012e4abba7f970fd-98b3c0e0333f56f21b9d",
+          "file": "prisma-user-creation.spec.ts",
+          "line": 38,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-03-04T00:42:30.544Z",
+    "duration": 1398.5040000000001,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
