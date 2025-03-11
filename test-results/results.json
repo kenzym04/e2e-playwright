@@ -141,12 +141,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 8756,
+                      "duration": 7395,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:52:50.517Z",
+                      "startTime": "2025-03-11T19:45:01.858Z",
                       "attachments": []
                     }
                   ],
@@ -173,12 +173,12 @@
                     {
                       "workerIndex": 3,
                       "status": "passed",
-                      "duration": 8825,
+                      "duration": 13382,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:52:50.611Z",
+                      "startTime": "2025-03-11T19:45:01.875Z",
                       "attachments": []
                     }
                   ],
@@ -205,12 +205,12 @@
                     {
                       "workerIndex": 6,
                       "status": "passed",
-                      "duration": 11933,
+                      "duration": 13719,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:00.842Z",
+                      "startTime": "2025-03-11T19:45:17.078Z",
                       "attachments": []
                     }
                   ],
@@ -235,14 +235,14 @@
                   "projectName": "mobile-chrome",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 8,
                       "status": "passed",
-                      "duration": 6247,
+                      "duration": 7711,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:15.516Z",
+                      "startTime": "2025-03-11T19:45:38.109Z",
                       "attachments": []
                     }
                   ],
@@ -267,14 +267,14 @@
                   "projectName": "mobile-safari",
                   "results": [
                     {
-                      "workerIndex": 11,
+                      "workerIndex": 10,
                       "status": "passed",
-                      "duration": 7457,
+                      "duration": 11520,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:34.156Z",
+                      "startTime": "2025-03-11T19:45:48.381Z",
                       "attachments": []
                     }
                   ],
@@ -318,7 +318,7 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 21277,
+                      "duration": 22275,
                       "errors": [],
                       "stdout": [
                         {
@@ -330,7 +330,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:52:50.949Z",
+                      "startTime": "2025-03-11T19:45:02.361Z",
                       "attachments": []
                     }
                   ],
@@ -357,7 +357,7 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 20010,
+                      "duration": 21045,
                       "errors": [],
                       "stdout": [
                         {
@@ -369,7 +369,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:12.367Z",
+                      "startTime": "2025-03-11T19:45:24.828Z",
                       "attachments": []
                     }
                   ],
@@ -396,7 +396,7 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 21774,
+                      "duration": 29458,
                       "errors": [],
                       "stdout": [
                         {
@@ -408,7 +408,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:52:50.998Z",
+                      "startTime": "2025-03-11T19:45:02.411Z",
                       "attachments": []
                     }
                   ],
@@ -435,7 +435,7 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 21889,
+                      "duration": 26524,
                       "errors": [],
                       "stdout": [
                         {
@@ -447,7 +447,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:12.870Z",
+                      "startTime": "2025-03-11T19:45:31.989Z",
                       "attachments": []
                     }
                   ],
@@ -474,7 +474,7 @@
                     {
                       "workerIndex": 7,
                       "status": "passed",
-                      "duration": 24896,
+                      "duration": 29112,
                       "errors": [],
                       "stdout": [
                         {
@@ -486,7 +486,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:01.245Z",
+                      "startTime": "2025-03-11T19:45:17.875Z",
                       "attachments": []
                     }
                   ],
@@ -513,7 +513,7 @@
                     {
                       "workerIndex": 7,
                       "status": "passed",
-                      "duration": 23972,
+                      "duration": 24956,
                       "errors": [],
                       "stdout": [
                         {
@@ -525,7 +525,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:27.442Z",
+                      "startTime": "2025-03-11T19:45:49.621Z",
                       "attachments": []
                     }
                   ],
@@ -550,9 +550,9 @@
                   "projectName": "mobile-chrome",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 11,
                       "status": "passed",
-                      "duration": 20322,
+                      "duration": 19960,
                       "errors": [],
                       "stdout": [
                         {
@@ -564,7 +564,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:22.263Z",
+                      "startTime": "2025-03-11T19:45:49.950Z",
                       "attachments": []
                     }
                   ],
@@ -589,9 +589,9 @@
                   "projectName": "mobile-chrome",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 11,
                       "status": "passed",
-                      "duration": 19612,
+                      "duration": 19708,
                       "errors": [],
                       "stdout": [
                         {
@@ -603,7 +603,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:42.604Z",
+                      "startTime": "2025-03-11T19:46:10.137Z",
                       "attachments": []
                     }
                   ],
@@ -630,7 +630,7 @@
                     {
                       "workerIndex": 12,
                       "status": "passed",
-                      "duration": 20180,
+                      "duration": 24139,
                       "errors": [],
                       "stdout": [
                         {
@@ -642,7 +642,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:36.170Z",
+                      "startTime": "2025-03-11T19:46:01.246Z",
                       "attachments": []
                     }
                   ],
@@ -669,7 +669,7 @@
                     {
                       "workerIndex": 12,
                       "status": "passed",
-                      "duration": 19118,
+                      "duration": 22402,
                       "errors": [],
                       "stdout": [
                         {
@@ -681,7 +681,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:56.444Z",
+                      "startTime": "2025-03-11T19:46:25.508Z",
                       "attachments": []
                     }
                   ],
@@ -725,7 +725,7 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 80,
+                      "duration": 305,
                       "errors": [],
                       "stdout": [
                         {
@@ -735,10 +735,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'guido.sauer.8bluz'\u001b[39m,\n  email: \u001b[32m'guido_sauer@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'zuzeyevalucu'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'maximo.howe.edbnx'\u001b[39m,\n  email: \u001b[32m'maximo_howe21@yahoo.com'\u001b[39m,\n  rawPassword: \u001b[32m'wesuqazoqixi'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: guido.sauer.8bluz\n"
+                          "text": "🔍 Searching for user: maximo.howe.edbnx\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -746,7 +746,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:52:51.070Z",
+                      "startTime": "2025-03-11T19:45:02.746Z",
                       "attachments": []
                     }
                   ],
@@ -773,7 +773,7 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 3739,
+                      "duration": 7219,
                       "errors": [],
                       "stdout": [
                         {
@@ -786,7 +786,7 @@
                           "text": "Dropdown item clicked successfully\n"
                         },
                         {
-                          "text": "✅ Found exactly 1 record for username: guido.sauer.8bluz\n"
+                          "text": "✅ Found exactly 1 record for username: maximo.howe.edbnx\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -797,7 +797,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:52:55.282Z",
+                      "startTime": "2025-03-11T19:45:07.188Z",
                       "attachments": []
                     }
                   ],
@@ -824,7 +824,7 @@
                     {
                       "workerIndex": 5,
                       "status": "passed",
-                      "duration": 103,
+                      "duration": 209,
                       "errors": [],
                       "stdout": [
                         {
@@ -834,10 +834,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'leif.rutherford.lxxwb'\u001b[39m,\n  email: \u001b[32m'leif_rutherford3@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'biniliwedixu'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'heloise.altenwerth.ebrp6'\u001b[39m,\n  email: \u001b[32m'heloise_altenwerth92@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'pulisixupavu'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: leif.rutherford.lxxwb\n"
+                          "text": "🔍 Searching for user: heloise.altenwerth.ebrp6\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -845,7 +845,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:01.130Z",
+                      "startTime": "2025-03-11T19:45:14.775Z",
                       "attachments": []
                     }
                   ],
@@ -872,7 +872,7 @@
                     {
                       "workerIndex": 5,
                       "status": "passed",
-                      "duration": 8171,
+                      "duration": 16238,
                       "errors": [],
                       "stdout": [
                         {
@@ -885,7 +885,7 @@
                           "text": "Dropdown item clicked successfully\n"
                         },
                         {
-                          "text": "✅ Found exactly 1 record for username: leif.rutherford.lxxwb\n"
+                          "text": "✅ Found exactly 1 record for username: heloise.altenwerth.ebrp6\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -896,7 +896,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:05.290Z",
+                      "startTime": "2025-03-11T19:45:19.140Z",
                       "attachments": []
                     }
                   ],
@@ -921,9 +921,9 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 8,
+                      "workerIndex": 6,
                       "status": "passed",
-                      "duration": 97,
+                      "duration": 254,
                       "errors": [],
                       "stdout": [
                         {
@@ -933,10 +933,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'annetta.considine.3uoth'\u001b[39m,\n  email: \u001b[32m'annetta.considine79@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'vigavelarade'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'hannah.koch.evkvp'\u001b[39m,\n  email: \u001b[32m'hannah.koch52@yahoo.com'\u001b[39m,\n  rawPassword: \u001b[32m'meranipuruca'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: annetta.considine.3uoth\n"
+                          "text": "🔍 Searching for user: hannah.koch.evkvp\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -944,7 +944,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:15.161Z",
+                      "startTime": "2025-03-11T19:45:33.253Z",
                       "attachments": []
                     }
                   ],
@@ -969,9 +969,9 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 8,
+                      "workerIndex": 6,
                       "status": "passed",
-                      "duration": 6104,
+                      "duration": 8192,
                       "errors": [],
                       "stdout": [
                         {
@@ -984,7 +984,7 @@
                           "text": "Dropdown item clicked successfully\n"
                         },
                         {
-                          "text": "✅ Found exactly 1 record for username: annetta.considine.3uoth\n"
+                          "text": "✅ Found exactly 1 record for username: hannah.koch.evkvp\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -995,7 +995,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:19.313Z",
+                      "startTime": "2025-03-11T19:45:37.582Z",
                       "attachments": []
                     }
                   ],
@@ -1020,9 +1020,9 @@
                   "projectName": "mobile-chrome",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 9,
                       "status": "passed",
-                      "duration": 105,
+                      "duration": 205,
                       "errors": [],
                       "stdout": [
                         {
@@ -1032,10 +1032,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'mia.mueller.8yunb'\u001b[39m,\n  email: \u001b[32m'mia.mueller@yahoo.com'\u001b[39m,\n  rawPassword: \u001b[32m'behucisaxafa'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'dawn.glover.z5pat'\u001b[39m,\n  email: \u001b[32m'dawn.glover@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'deximopubudu'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: mia.mueller.8yunb\n"
+                          "text": "🔍 Searching for user: dawn.glover.z5pat\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -1043,7 +1043,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:28.326Z",
+                      "startTime": "2025-03-11T19:45:48.883Z",
                       "attachments": []
                     }
                   ],
@@ -1068,9 +1068,9 @@
                   "projectName": "mobile-chrome",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 9,
                       "status": "passed",
-                      "duration": 4004,
+                      "duration": 6452,
                       "errors": [],
                       "stdout": [
                         {
@@ -1083,7 +1083,7 @@
                           "text": "Dropdown item clicked successfully\n"
                         },
                         {
-                          "text": "✅ Found exactly 1 record for username: mia.mueller.8yunb\n"
+                          "text": "✅ Found exactly 1 record for username: dawn.glover.z5pat\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -1094,7 +1094,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:32.475Z",
+                      "startTime": "2025-03-11T19:45:53.194Z",
                       "attachments": []
                     }
                   ],
@@ -1121,7 +1121,7 @@
                     {
                       "workerIndex": 13,
                       "status": "passed",
-                      "duration": 177,
+                      "duration": 180,
                       "errors": [],
                       "stdout": [
                         {
@@ -1131,10 +1131,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'ethelyn.sauer.zbxpc'\u001b[39m,\n  email: \u001b[32m'ethelyn.sauer93@yahoo.com'\u001b[39m,\n  rawPassword: \u001b[32m'weveranejovu'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'macey.reinger.npfu1'\u001b[39m,\n  email: \u001b[32m'macey_reinger62@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'lubupekucanu'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: ethelyn.sauer.zbxpc\n"
+                          "text": "🔍 Searching for user: macey.reinger.npfu1\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -1142,7 +1142,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:38.220Z",
+                      "startTime": "2025-03-11T19:46:02.750Z",
                       "attachments": []
                     }
                   ],
@@ -1169,7 +1169,7 @@
                     {
                       "workerIndex": 13,
                       "status": "passed",
-                      "duration": 7449,
+                      "duration": 12581,
                       "errors": [],
                       "stdout": [
                         {
@@ -1182,7 +1182,7 @@
                           "text": "Dropdown item clicked successfully\n"
                         },
                         {
-                          "text": "✅ Found exactly 1 record for username: ethelyn.sauer.zbxpc\n"
+                          "text": "✅ Found exactly 1 record for username: macey.reinger.npfu1\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -1193,7 +1193,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-11T08:53:42.455Z",
+                      "startTime": "2025-03-11T19:46:07.055Z",
                       "attachments": []
                     }
                   ],
@@ -1212,8 +1212,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-11T08:52:49.239Z",
-    "duration": 86372.24100000001,
+    "startTime": "2025-03-11T19:44:58.973Z",
+    "duration": 109049.986,
     "expected": 25,
     "skipped": 0,
     "unexpected": 0,
