@@ -63,7 +63,7 @@ npx prisma migrate dev
 ### Run all tests in parallel (default):
 
 ```bash
-npx playwright test --workers=4  
+npx playwright test --workers=5  
 ```
 
 ### Run only Prisma tests:

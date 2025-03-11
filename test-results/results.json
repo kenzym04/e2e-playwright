@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "actualWorkers": 5
     },
     "preserveOutput": "always",
     "reporter": [
@@ -109,7 +109,7 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.50.1",
-    "workers": 4,
+    "workers": 5,
     "webServer": null
   },
   "suites": [
@@ -123,7 +123,7 @@
         {
           "title": "Web Books Page Visibility",
           "file": "e2e/web-books-inspect.spec.ts",
-          "line": 7,
+          "line": 8,
           "column": 6,
           "specs": [
             {
@@ -141,12 +141,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 15256,
+                      "duration": 8756,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:19.705Z",
+                      "startTime": "2025-03-11T08:52:50.517Z",
                       "attachments": []
                     }
                   ],
@@ -155,7 +155,7 @@
               ],
               "id": "01cc33b816c6cd9d4b79-69d4a7865b0777e0c6d1",
               "file": "e2e/web-books-inspect.spec.ts",
-              "line": 8,
+              "line": 9,
               "column": 7
             },
             {
@@ -171,14 +171,14 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 3,
                       "status": "passed",
-                      "duration": 16946,
+                      "duration": 8825,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:19.725Z",
+                      "startTime": "2025-03-11T08:52:50.611Z",
                       "attachments": []
                     }
                   ],
@@ -187,7 +187,7 @@
               ],
               "id": "01cc33b816c6cd9d4b79-629a8c81a8728fa6ae00",
               "file": "e2e/web-books-inspect.spec.ts",
-              "line": 8,
+              "line": 9,
               "column": 7
             },
             {
@@ -203,14 +203,14 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 6,
                       "status": "passed",
-                      "duration": 19398,
+                      "duration": 11933,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:30.960Z",
+                      "startTime": "2025-03-11T08:53:00.842Z",
                       "attachments": []
                     }
                   ],
@@ -219,7 +219,7 @@
               ],
               "id": "01cc33b816c6cd9d4b79-bc1b688c2a08cd4b1f47",
               "file": "e2e/web-books-inspect.spec.ts",
-              "line": 8,
+              "line": 9,
               "column": 7
             },
             {
@@ -235,14 +235,14 @@
                   "projectName": "mobile-chrome",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 9,
                       "status": "passed",
-                      "duration": 17130,
+                      "duration": 6247,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:37.563Z",
+                      "startTime": "2025-03-11T08:53:15.516Z",
                       "attachments": []
                     }
                   ],
@@ -251,7 +251,7 @@
               ],
               "id": "01cc33b816c6cd9d4b79-35660d2552097b0313b2",
               "file": "e2e/web-books-inspect.spec.ts",
-              "line": 8,
+              "line": 9,
               "column": 7
             },
             {
@@ -267,14 +267,14 @@
                   "projectName": "mobile-safari",
                   "results": [
                     {
-                      "workerIndex": 8,
+                      "workerIndex": 11,
                       "status": "passed",
-                      "duration": 12618,
+                      "duration": 7457,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:50.434Z",
+                      "startTime": "2025-03-11T08:53:34.156Z",
                       "attachments": []
                     }
                   ],
@@ -283,8 +283,415 @@
               ],
               "id": "01cc33b816c6cd9d4b79-42cd473b6b513d62105a",
               "file": "e2e/web-books-inspect.spec.ts",
-              "line": 8,
+              "line": 9,
               "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e\\web-books-page-functionality.spec.ts",
+      "file": "e2e/web-books-page-functionality.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Web Books Page Functionality",
+          "file": "e2e/web-books-page-functionality.spec.ts",
+          "line": 9,
+          "column": 10,
+          "specs": [
+            {
+              "title": "Test Case 1: should register new user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 21277,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "User registered successfully\n"
+                        },
+                        {
+                          "text": "Clicked on the register button\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-11T08:52:50.949Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b66a6c979c2b046b461d-4aae69411d7180c44f2b",
+              "file": "e2e/web-books-page-functionality.spec.ts",
+              "line": 12,
+              "column": 13
+            },
+            {
+              "title": "Test Case 2: should login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 20010,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "Logged in successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-11T08:53:12.367Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b66a6c979c2b046b461d-feb138986bf3753fca49",
+              "file": "e2e/web-books-page-functionality.spec.ts",
+              "line": 21,
+              "column": 13
+            },
+            {
+              "title": "Test Case 1: should register new user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 21774,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "User registered successfully\n"
+                        },
+                        {
+                          "text": "Clicked on the register button\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-11T08:52:50.998Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b66a6c979c2b046b461d-ef7e34ae8f23a568ac3b",
+              "file": "e2e/web-books-page-functionality.spec.ts",
+              "line": 12,
+              "column": 13
+            },
+            {
+              "title": "Test Case 2: should login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 21889,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "Logged in successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-11T08:53:12.870Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b66a6c979c2b046b461d-ffd1484ae407a089b68c",
+              "file": "e2e/web-books-page-functionality.spec.ts",
+              "line": 21,
+              "column": 13
+            },
+            {
+              "title": "Test Case 1: should register new user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "status": "passed",
+                      "duration": 24896,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "User registered successfully\n"
+                        },
+                        {
+                          "text": "Clicked on the register button\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-11T08:53:01.245Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b66a6c979c2b046b461d-f94c14e994aa7c4fc07f",
+              "file": "e2e/web-books-page-functionality.spec.ts",
+              "line": 12,
+              "column": 13
+            },
+            {
+              "title": "Test Case 2: should login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "status": "passed",
+                      "duration": 23972,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "Logged in successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-11T08:53:27.442Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b66a6c979c2b046b461d-1ad860e9867f9dc5cde8",
+              "file": "e2e/web-books-page-functionality.spec.ts",
+              "line": 21,
+              "column": 13
+            },
+            {
+              "title": "Test Case 1: should register new user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "passed",
+                      "duration": 20322,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "User registered successfully\n"
+                        },
+                        {
+                          "text": "Clicked on the register button\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-11T08:53:22.263Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b66a6c979c2b046b461d-124c59a2b14f1b6377b8",
+              "file": "e2e/web-books-page-functionality.spec.ts",
+              "line": 12,
+              "column": 13
+            },
+            {
+              "title": "Test Case 2: should login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "passed",
+                      "duration": 19612,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "Logged in successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-11T08:53:42.604Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b66a6c979c2b046b461d-d66712daf58b8849ec33",
+              "file": "e2e/web-books-page-functionality.spec.ts",
+              "line": 21,
+              "column": 13
+            },
+            {
+              "title": "Test Case 1: should register new user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-safari",
+                  "projectName": "mobile-safari",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "status": "passed",
+                      "duration": 20180,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "User registered successfully\n"
+                        },
+                        {
+                          "text": "Clicked on the register button\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-11T08:53:36.170Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b66a6c979c2b046b461d-29d4b252d0e1579c1c93",
+              "file": "e2e/web-books-page-functionality.spec.ts",
+              "line": 12,
+              "column": 13
+            },
+            {
+              "title": "Test Case 2: should login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-safari",
+                  "projectName": "mobile-safari",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "status": "passed",
+                      "duration": 19118,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "Logged in successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-11T08:53:56.444Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b66a6c979c2b046b461d-661d5e0fc1872419fd33",
+              "file": "e2e/web-books-page-functionality.spec.ts",
+              "line": 21,
+              "column": 13
             }
           ]
         }
@@ -316,7 +723,7 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 2,
                       "status": "passed",
                       "duration": 80,
                       "errors": [],
@@ -328,10 +735,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'brando.berge.a1dta'\u001b[39m,\n  email: \u001b[32m'brando.berge96@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'bewocotusulo'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'guido.sauer.8bluz'\u001b[39m,\n  email: \u001b[32m'guido_sauer@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'zuzeyevalucu'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: brando.berge.a1dta\n"
+                          "text": "🔍 Searching for user: guido.sauer.8bluz\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -339,7 +746,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:20.260Z",
+                      "startTime": "2025-03-11T08:52:51.070Z",
                       "attachments": []
                     }
                   ],
@@ -364,9 +771,9 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 2,
                       "status": "passed",
-                      "duration": 4792,
+                      "duration": 3739,
                       "errors": [],
                       "stdout": [
                         {
@@ -379,7 +786,7 @@
                           "text": "Dropdown item clicked successfully\n"
                         },
                         {
-                          "text": "✅ Found exactly 1 record for username: brando.berge.a1dta\n"
+                          "text": "✅ Found exactly 1 record for username: guido.sauer.8bluz\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -390,7 +797,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:24.457Z",
+                      "startTime": "2025-03-11T08:52:55.282Z",
                       "attachments": []
                     }
                   ],
@@ -415,9 +822,9 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 5,
                       "status": "passed",
-                      "duration": 78,
+                      "duration": 103,
                       "errors": [],
                       "stdout": [
                         {
@@ -427,10 +834,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'reyna.mcclure.tlbqp'\u001b[39m,\n  email: \u001b[32m'reyna_mcclure@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'yuzuzaqezowo'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'leif.rutherford.lxxwb'\u001b[39m,\n  email: \u001b[32m'leif_rutherford3@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'biniliwedixu'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: reyna.mcclure.tlbqp\n"
+                          "text": "🔍 Searching for user: leif.rutherford.lxxwb\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -438,7 +845,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:20.249Z",
+                      "startTime": "2025-03-11T08:53:01.130Z",
                       "attachments": []
                     }
                   ],
@@ -463,9 +870,9 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 5,
                       "status": "passed",
-                      "duration": 11818,
+                      "duration": 8171,
                       "errors": [],
                       "stdout": [
                         {
@@ -478,7 +885,7 @@
                           "text": "Dropdown item clicked successfully\n"
                         },
                         {
-                          "text": "✅ Found exactly 1 record for username: reyna.mcclure.tlbqp\n"
+                          "text": "✅ Found exactly 1 record for username: leif.rutherford.lxxwb\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -489,7 +896,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:24.437Z",
+                      "startTime": "2025-03-11T08:53:05.290Z",
                       "attachments": []
                     }
                   ],
@@ -514,9 +921,9 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 8,
                       "status": "passed",
-                      "duration": 118,
+                      "duration": 97,
                       "errors": [],
                       "stdout": [
                         {
@@ -526,10 +933,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'alyce.hilll.8o8fy'\u001b[39m,\n  email: \u001b[32m'alyce.hilll@gmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'qohokeboputu'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'annetta.considine.3uoth'\u001b[39m,\n  email: \u001b[32m'annetta.considine79@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'vigavelarade'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: alyce.hilll.8o8fy\n"
+                          "text": "🔍 Searching for user: annetta.considine.3uoth\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -537,7 +944,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:37.378Z",
+                      "startTime": "2025-03-11T08:53:15.161Z",
                       "attachments": []
                     }
                   ],
@@ -562,9 +969,9 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 8,
                       "status": "passed",
-                      "duration": 10976,
+                      "duration": 6104,
                       "errors": [],
                       "stdout": [
                         {
@@ -577,7 +984,7 @@
                           "text": "Dropdown item clicked successfully\n"
                         },
                         {
-                          "text": "✅ Found exactly 1 record for username: alyce.hilll.8o8fy\n"
+                          "text": "✅ Found exactly 1 record for username: annetta.considine.3uoth\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -588,7 +995,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:41.557Z",
+                      "startTime": "2025-03-11T08:53:19.313Z",
                       "attachments": []
                     }
                   ],
@@ -613,9 +1020,9 @@
                   "projectName": "mobile-chrome",
                   "results": [
                     {
-                      "workerIndex": 7,
+                      "workerIndex": 10,
                       "status": "passed",
-                      "duration": 114,
+                      "duration": 105,
                       "errors": [],
                       "stdout": [
                         {
@@ -625,10 +1032,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'reyna.kirlin.l09tz'\u001b[39m,\n  email: \u001b[32m'reyna.kirlin@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'nivoraqijade'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'mia.mueller.8yunb'\u001b[39m,\n  email: \u001b[32m'mia.mueller@yahoo.com'\u001b[39m,\n  rawPassword: \u001b[32m'behucisaxafa'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: reyna.kirlin.l09tz\n"
+                          "text": "🔍 Searching for user: mia.mueller.8yunb\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -636,7 +1043,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:38.523Z",
+                      "startTime": "2025-03-11T08:53:28.326Z",
                       "attachments": []
                     }
                   ],
@@ -661,9 +1068,9 @@
                   "projectName": "mobile-chrome",
                   "results": [
                     {
-                      "workerIndex": 7,
+                      "workerIndex": 10,
                       "status": "passed",
-                      "duration": 4689,
+                      "duration": 4004,
                       "errors": [],
                       "stdout": [
                         {
@@ -676,7 +1083,7 @@
                           "text": "Dropdown item clicked successfully\n"
                         },
                         {
-                          "text": "✅ Found exactly 1 record for username: reyna.kirlin.l09tz\n"
+                          "text": "✅ Found exactly 1 record for username: mia.mueller.8yunb\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -687,7 +1094,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:42.703Z",
+                      "startTime": "2025-03-11T08:53:32.475Z",
                       "attachments": []
                     }
                   ],
@@ -712,9 +1119,9 @@
                   "projectName": "mobile-safari",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 13,
                       "status": "passed",
-                      "duration": 81,
+                      "duration": 177,
                       "errors": [],
                       "stdout": [
                         {
@@ -724,10 +1131,10 @@
                           "text": "✅ Prisma Studio opened. Check at http://localhost:5555\n"
                         },
                         {
-                          "text": "✅ User Created: {\n  username: \u001b[32m'keshawn.erdman.j7ui6'\u001b[39m,\n  email: \u001b[32m'keshawn_erdman@hotmail.com'\u001b[39m,\n  rawPassword: \u001b[32m'runutigocike'\u001b[39m\n}\n"
+                          "text": "✅ User Created: {\n  username: \u001b[32m'ethelyn.sauer.zbxpc'\u001b[39m,\n  email: \u001b[32m'ethelyn.sauer93@yahoo.com'\u001b[39m,\n  rawPassword: \u001b[32m'weveranejovu'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "🔍 Searching for user: keshawn.erdman.j7ui6\n"
+                          "text": "🔍 Searching for user: ethelyn.sauer.zbxpc\n"
                         },
                         {
                           "text": "✅ User found in database\n"
@@ -735,7 +1142,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:53.637Z",
+                      "startTime": "2025-03-11T08:53:38.220Z",
                       "attachments": []
                     }
                   ],
@@ -760,9 +1167,9 @@
                   "projectName": "mobile-safari",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 13,
                       "status": "passed",
-                      "duration": 5874,
+                      "duration": 7449,
                       "errors": [],
                       "stdout": [
                         {
@@ -775,7 +1182,7 @@
                           "text": "Dropdown item clicked successfully\n"
                         },
                         {
-                          "text": "✅ Found exactly 1 record for username: keshawn.erdman.j7ui6\n"
+                          "text": "✅ Found exactly 1 record for username: ethelyn.sauer.zbxpc\n"
                         },
                         {
                           "text": "✅ Prisma Studio closed.\n"
@@ -786,7 +1193,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-04T14:37:57.764Z",
+                      "startTime": "2025-03-11T08:53:42.455Z",
                       "attachments": []
                     }
                   ],
@@ -805,9 +1212,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-04T14:37:18.411Z",
-    "duration": 45367.936,
-    "expected": 15,
+    "startTime": "2025-03-11T08:52:49.239Z",
+    "duration": 86372.24100000001,
+    "expected": 25,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
