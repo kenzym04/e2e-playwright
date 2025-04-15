@@ -41,6 +41,7 @@ Ensure you have the following installed:
 - **Playwright** (installed via `npm`)
 - **Prisma** ORM
 - **Git** (optional, for version control)
+- **Docker-compose**
 
 ### 🔧 Installation
 
