@@ -1,4 +1,4 @@
-# Playwright & Prisma Automation
+# E2E Playwright & Prisma Automation: End-to-End Web Books Page Testing, Database Management with SQL Migration
 
 ## 📌 Project Overview
 
@@ -121,20 +121,29 @@ npx playwright test --workers=1 --debug
 ## 📂 Project Structure
 
 ```
-watu-assignment-playwright
+e2e-playwright
 │── .github/workflows/        # GitHub Actions CI/CD setup
 │── prisma/                   # Prisma ORM schema and migrations
-│── tests/
-│   ├── e2e/
-│   │   ├── web-books-inspect.spec.ts            # Login page element verification
-│   │   └── web-books-page-functionality.spec.ts  # Registration and login tests
-│   ├── integration/
-│   │   └── prisma-user-creation.spec.ts          # Database storage tests
-│   └── utils/
-│       ├── login.ts
-│       ├── generateUserCredentials.ts
-│       ├── registerUser.ts
-│       └── testPrisma.ts
++---database_migration
+|       .env
+|       docker-compose.yml
+|       init.sql
+|       migration.sql
+|
++---e2e
+|   |   login-test.spec.ts
+|   |   web-books-inspect.spec.ts
+|   |   web-books-page-functionality.spec.ts
+|   |
+|   \---test-results
+|       prisma-user-creation.spec.ts
+|
+|
+\---utils
+        generateUserCredentials.ts
+        login.ts
+        registerUser.ts
+        testPrisma.ts
 │── docs/                     # Documentation and test reports
 │── screenshots/              # Screenshot files
 │── test-results/             # Test artifacts (screenshots, traces)
@@ -145,6 +154,7 @@ watu-assignment-playwright
 │── package.json              # Project dependencies
 │── tsconfig.json             # TypeScript configuration
 │── README.md                 # Project documentation
+
 ```
 
 ---
