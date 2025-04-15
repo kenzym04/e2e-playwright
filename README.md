@@ -197,9 +197,65 @@ To view reports locally:
 ```bash
 npx playwright show-report
 ```
+---
+## 🔄 Database Migration
+
+### Database Schema
+
+The provided SQL script sets up a database schema for a fictional e-commerce platform called "WATU". The script creates the following tables:
+
+1. `Clients`: Stores information about clients, such as their ID, name, address, and phone number.
+2. `Users`: Stores user information, including their ID, username, password, registration date, and the client they belong to (if any).
+3. `Orders`: Stores order information, including their ID, user ID, client ID, order date, and total amount.
+4. `Products`: Stores product information, including their ID, name, and price.
+5. `OrderItems`: Stores the relationship between orders and products, including the order ID, product ID, and quantity.
+
+### init.sql
+
+The `init.sql` file contains the SQL script for creating the database schema and inserting sample data. It is used to initialize the database with the necessary tables and data for testing and development purposes.
+
+### Migration Script
+
+The `migration.sql` file contains the SQL script for creating the database schema and inserting sample data. You can use this script to migrate the database schema to your MySQL server.
+
+### Docker Compose
+
+The `docker-compose.yml` file provides a configuration for running a MySQL server using Docker. You can use this file to set up a local development environment for testing and development purposes.
+
+### Environment Variables
+
+The `.env` file contains environment variables that can be used to configure the database connection. You can set the following variables:
+
+- `DB_HOST`: The host address of the MySQL server.
+- `DB_PORT`: The port number of the MySQL server.
+- `DB_NAME`: The name of the database.
+- `DB_USER`: The username for connecting to the database.
+- `DB_PASSWORD`: The password for connecting to the database.
+
+### Running the Migration Script
+
+To migrate the database schema, follow these steps:
+
+1. Make sure you have Docker installed and running.
+2. Open a terminal and navigate to the directory containing the `docker-compose.yml` file.
+3. Run `docker-compose up -d` to start the MySQL server using Docker.
+4. Run `docker-compose exec db bash` to open a bash shell inside the Docker container.
+5. Inside the Docker container, run `mysql -u root -p < init.sql` to execute the `init.sql` script and create the database schema.
+6. Run `mysql -u root -p < migration.sql` to execute the migration script and apply the database migrations.
+
+### Testing with Prisma
+
+The `prisma` directory contains the Prisma schema and migration files. You can use Prisma to interact with the database and perform CRUD operations.
+
+To test the database migration with Prisma, follow these steps:
+
+1. Make sure you have Prisma installed and set up in your project.
+2. Run `npx prisma migrate dev` to apply the database migrations.
+3. Use Prisma queries and mutations to interact with the database and perform CRUD operations.
+
+This section provides a clear overview of the purpose and contents of the database migration, as well as instructions on how to use the `init.sql` file, migration script, Docker Compose, environment variables, and Prisma to initialize the database for testing and development purposes.
 
 ---
-
 ## ❓ Troubleshooting
 
 1. **Tests failing on CI/CD?**
