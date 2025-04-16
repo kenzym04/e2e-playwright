@@ -48,8 +48,8 @@ Ensure you have the following installed:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-repo/watu-assignment-playwright.git
-cd watu-assignment-playwright
+git clone https://github.com/your-repo/e2e-playwright.git
+cd e2e-playwright
 npm install
 ```
 
