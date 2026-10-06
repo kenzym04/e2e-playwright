@@ -1,0 +1,18 @@
+protocol: "e2e-playwright"
+language: solidity
+chain: ethereum
+
+audit:
+  include:
+    - "contracts/**/*.sol"
+  exclude:
+    - "**/vendor/**"
+    - "**/lib/**"
+
+ci:
+  on_pr:
+    mode: pr
+    fail_on: critical
+  on_push_main:
+    mode: pr
+    fail_on: critical
