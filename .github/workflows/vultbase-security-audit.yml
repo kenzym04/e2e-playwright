@@ -24,7 +24,7 @@ jobs:
 
       - name: Run Vultbase Security Audit
         id: audit
-        uses: kenzym04/vultbase-action@v1
+        uses: Vultbase/vultbase-action@v1
         with:
           api-key: ${{ secrets.VULTBASE_API_KEY }}
           contracts: 'contracts/**/*.sol'
