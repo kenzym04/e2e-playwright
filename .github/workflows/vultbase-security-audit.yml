@@ -1,0 +1,46 @@
+name: Vultbase Security Audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'contracts/**'
+      - '.vultbase.yml'
+      - '.github/workflows/vultbase-security-audit.yml'
+  pull_request:
+    paths:
+      - 'contracts/**'
+      - '.vultbase.yml'
+      - '.github/workflows/vultbase-security-audit.yml'
+
+jobs:
+  vultbase-audit:
+    name: Vultbase Smart Contract Audit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run Vultbase Security Audit
+        id: audit
+        uses: Vultbase/vultbase-action@v1
+        with:
+          api-key: ${{ secrets.VULTBASE_API_KEY }}
+          contracts: 'contracts/**/*.sol'
+          protocol-name: 'e2e-playwright'
+          language: 'solidity'
+          target-chain: 'ethereum'
+          fail-on: 'critical'
+          mode: 'pr'
+          vultbase-url: 'https://www.vultbase.com'
+
+      - name: Print Audit Summary
+        if: always()
+        run: |
+          echo "Job ID:   ${{ steps.audit.outputs.job-id }}"
+          echo "Passed:   ${{ steps.audit.outputs.passed }}"
+          echo "Critical: ${{ steps.audit.outputs.critical-count }}"
+          echo "High:     ${{ steps.audit.outputs.high-count }}"
+          echo "Total:    ${{ steps.audit.outputs.total-findings }}"
+          echo "Report:   ${{ steps.audit.outputs.report-url }}"
